@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Name - SID</title>
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="website icon" type="png" href="assests/webicon.png">
+    <title>MyPortfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Majed Alquda</h1>
-        <p>Major: Computer science</p>
-    </header>
-    <section class="about">
-        <h2 style=" color: rgb(250, 60, 209);position: relative;  left: 830px; font-family: 'Times New Roman', Times, serif;">About Me</h2>
-        
-        <img src="me.jpg" alt="Your Image" style="width: 300px; height: 300px; position: relative;  left: 740px; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)">
-    </section>
-    <section class="languages">
-        <h2 style=" color: rgb(250, 60, 209); text-align: center;"> Favorite Programming Languages: </h2>
-        <table>
-            <tr>
-                <td><a href="https://www.learncpp.com/">  Cpp </a></td>
-                <td><a href="https://www.learnpython.org/">Python</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.learn-php.org/">  php </a></td>
-                <td><a href="https://dart.dev/tutorials"> Dart   </a></td>
-            </tr>
-        </table>
-    </section>
-    <footer>
-        <a href="contact.html">Contact me</a>
-    </footer>
+    
+    <nav id="desk-nav">
+        <div class="logo">Majed Alqudah</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Majed Alqudah</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
