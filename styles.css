@@ -6,10 +6,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
-    /*background-image: url(assests/bg.png);
-    background-size: cover;*/
-
-    
+    background: linear-gradient(to bottom left ,#A6A08A,#4b4537);  
 }
 html{
     scroll-behavior: smooth;
@@ -184,7 +181,7 @@ section{
     text-align: center;
     color: #26231C;
 }
-.text1{
+.text2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -208,6 +205,12 @@ section{
     cursor: pointer;
     height: 2rem;
     padding: 0.5rem;
+    transition: all 300ms ease;
+    border-radius: 50%;
+}
+.icon:hover{
+    box-shadow: 0 0 15px 5px #D0CDC3;
+    border-radius: 50%;
 }
 
 /*BUTTONS*/
