@@ -6,6 +6,10 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    /*background-image: url(assests/bg.png);
+    background-size: cover;*/
+
+    
 }
 html{
     scroll-behavior: smooth;
@@ -134,3 +138,144 @@ a:hover{
 .ham-icon span:first-child{
     transform: none;
 }
+
+
+/*SECtions*/
+
+section{
+    padding: 4vh;
+    height: 96vh;
+    margin: 0px 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-contrainer{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container{
+    width: 400px;
+    height: 400px;
+    margin: auto 10px;
+    
+}
+.section__pic-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 4px black);
+}
+.section__text{
+    align-self: center;
+    text-align: center;
+}
+.section__text p{
+    font-weight: 600;
+    color: #26231C;
+}
+.text1{
+    text-align: center;
+    color: #26231C;
+}
+.text1{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+    color: #26231C;
+}
+
+#section-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+
+/*icons*/
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+/*BUTTONS*/
+
+.border-el-btn {
+    color: #26231C;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 1em 2em;
+    position: relative;
+    background: none;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .border-el-btn:active {
+    transform: scale(.98);
+    box-shadow: .1px .1px 2px #26231C;
+  }
+  
+  .border-el-btn span {
+    position: absolute;
+    background: #26231C;
+    transition: .5s;
+    box-shadow: 1px 1px 20px #26231C;
+  }
+  
+  .border-el-btn span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 30%;
+  }
+  
+  .border-el-btn:hover span:nth-child(1) {
+    height: 100%;
+  }
+  
+  .border-el-btn span:nth-child(2) {
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 3px;
+  }
+  
+  .border-el-btn:hover span:nth-child(2) {
+    width: 100%;
+  }
+  
+  .border-el-btn span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 3px;
+    height: 30%;
+  }
+  
+  .border-el-btn:hover span:nth-child(3) {
+    height: 100%;
+  }
+  
+  .border-el-btn span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    height: 3px;
+  }
+  
+  .border-el-btn:hover span:nth-child(4) {
+    width: 100%;
+  }
