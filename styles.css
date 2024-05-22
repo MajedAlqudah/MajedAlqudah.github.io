@@ -340,9 +340,11 @@ section {
   padding: 1.5rem;
   flex: 1;
   
-  border-radius: 2rem;
-  border: #26231C 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: solid #4b4537;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
   text-align: center;
 }
 
@@ -406,6 +408,8 @@ img:hover{
     flex: 1;
     text-align: center;
     border: solid #4b4537;
-    border-top-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
 }
