@@ -1,8 +1,106 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
     #desk-nav{
         display: none;
     }
     #ham-nav{
         display: flex;
+        
     }
+    #profile .btn-container{
+        display: none;
+    }
+    .btn-container2{
+        display: flex;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    body{
+        background: linear-gradient(to bottom left ,#A6A08A,#4b4537);;
+    }
+    
+    #experience , .experience-details-contaiiner{
+        margin-top: 2rem;
+    }
+    #profile , .section-container{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section , .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width:275px ;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container{
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #contact,footer{
+        height: 40vh;
+    }
+    #profile{
+        height:83vh;
+        margin-bottom: 2rem;
+    }
+    
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-info-upper-container,.btn-container{
+        flex-wrap: wrap;
+    }
+    .btn{
+        size: 2rem; 
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p , .nav-links li a{
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .section__pic-container{
+        width: 33vh;
+        justify-content: center;
+        height: 30vh;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 1.75rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+
 }

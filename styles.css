@@ -75,6 +75,7 @@ a:hover{
 .ham-menu{
   display: inline-block;
   position: relative;
+  z-index: 2;
 }
 .ham-icon{
   display: flex;
@@ -167,6 +168,7 @@ section {
 }
 
 .section__pic-container {
+  z-index: 1;
   display: flex;
   height: 400px;
   width: 400px;
@@ -239,7 +241,7 @@ section {
 .btn-container{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  
 }
 .border-el-btn {
   color: #26231C;
@@ -309,6 +311,51 @@ section {
   width: 100%;
 }
 
+.btn-container2 {
+  display: none;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: #26231C 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: #26231C;
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: #1b1914;
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: #D0CDC3 0.1rem solid;
+}
+
+.btn-container2{
+  gap: 1rem;
+}
 
 /* ABOUT SECTION */
 
@@ -404,8 +451,10 @@ img:hover{
   justify-content: space-around;
 }
 .article{
+  text-align: center;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   gap: 0.5rem;
   width: 10rem;
 }
@@ -463,6 +512,7 @@ article , h2, h3 , h1{
   display: flex;
   justify-content: center;
   border: solid #4b4537;
+  
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
   border-bottom-left-radius: 20%;
@@ -485,4 +535,16 @@ article , h2, h3 , h1{
 
 .contact-icon{
   height: 2.5rem;
+}
+
+/* footer section */
+
+footer{
+  height: 30vh;
+  margin: 1rem;
+}
+
+footer p{
+  text-align: center;
+  color: #1b1914;
 }
