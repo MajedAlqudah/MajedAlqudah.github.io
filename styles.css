@@ -216,6 +216,7 @@ section {
 /* ICONS */
 
 .icon{
+  filter: none;
   cursor: pointer;
   height: 2rem;
   padding: 0.5rem;
@@ -227,6 +228,7 @@ section {
   border-radius: 50%;
 }
 .icon1{
+  filter: none;
   height: 2rem;
   padding: 0.5rem;
   transition: all 300ms ease;
@@ -446,4 +448,41 @@ article , h2, h3 , h1{
 .project-btn{
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+/* contact section */
+
+#contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container{
+  display: flex;
+  justify-content: center;
+  border: solid #4b4537;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p{
+  font-size: larger;
+}
+
+.contact-icon{
+  height: 2.5rem;
 }
