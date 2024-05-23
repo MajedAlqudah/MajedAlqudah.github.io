@@ -234,7 +234,11 @@ section {
 }
 
 /* BUTTONS */
-
+.btn-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 .border-el-btn {
   color: #26231C;
   outline: none;
@@ -412,4 +416,34 @@ img:hover{
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
+}
+article , h2, h3 , h1{
+  cursor: default;
+}
+
+/* PRJS section */
+
+#projects{
+  position: relative;
+}
+
+.project-img{
+  border-radius: 2rem;
+  width: 50%;
+  height: 50%;
+}
+
+.about-container{
+  gap: 5rem;
+  margin: 10%;
+}
+
+.project-title{
+  margin: 1rem;
+  color: #26231C;
+}
+
+.project-btn{
+  color: black;
+  border-color: rgb(163, 163, 163);
 }
